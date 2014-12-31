@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\Users\\Hammad\\WebstormProjects\\WebScrapper',
+6 verbose install   [ 'express', 'ejs', 'request', 'cherryio' ] ]
+7 info preinstall WebScrapper@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@~4.9.0 C:\Users\Hammad\WebstormProjects\WebScrapper
+10 verbose already installed skipping ejs@~0.8.5 C:\Users\Hammad\WebstormProjects\WebScrapper
+11 verbose cache add [ 'request@latest', null ]
+12 verbose cache add name=undefined spec="request@latest" args=["request@latest",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'request@latest',
+13 verbose parsed url   path: 'request@latest',
+13 verbose parsed url   href: 'request@latest' }
+14 verbose cache add [ 'cherryio@latest', null ]
+15 verbose cache add name=undefined spec="cherryio@latest" args=["cherryio@latest",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'cherryio@latest',
+16 verbose parsed url   path: 'cherryio@latest',
+16 verbose parsed url   href: 'cherryio@latest' }
+17 verbose cache add name="request" spec="latest" args=["request","latest"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'latest',
+18 verbose parsed url   path: 'latest',
+18 verbose parsed url   href: 'latest' }
+19 verbose addNamed [ 'request', 'latest' ]
+20 verbose addNamed [ null, null ]
+21 verbose cache add name="cherryio" spec="latest" args=["cherryio","latest"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'latest',
+22 verbose parsed url   path: 'latest',
+22 verbose parsed url   href: 'latest' }
+23 verbose addNamed [ 'cherryio', 'latest' ]
+24 verbose addNamed [ null, null ]
+25 silly lockFile 5da6dfb1-request-latest request@latest
+26 verbose lock request@latest C:\Users\Hammad\AppData\Roaming\npm-cache\5da6dfb1-request-latest.lock
+27 silly lockFile c56fc81b-cherryio-latest cherryio@latest
+28 verbose lock cherryio@latest C:\Users\Hammad\AppData\Roaming\npm-cache\c56fc81b-cherryio-latest.lock
+29 info addNameTag [ 'request', 'latest' ]
+30 info addNameTag [ 'cherryio', 'latest' ]
+31 verbose request where is /request
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id f8b5c7069c96687e
+34 verbose url raw /request
+35 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+36 verbose url resolved https://registry.npmjs.org/request
+37 verbose request where is https://registry.npmjs.org/request
+38 info trying registry request attempt 1 at 16:29:19
+39 http GET https://registry.npmjs.org/request
+40 verbose request where is /cherryio
+41 verbose request registry https://registry.npmjs.org/
+42 verbose url raw /cherryio
+43 verbose url resolving [ 'https://registry.npmjs.org/', './cherryio' ]
+44 verbose url resolved https://registry.npmjs.org/cherryio
+45 verbose request where is https://registry.npmjs.org/cherryio
+46 info trying registry request attempt 1 at 16:29:19
+47 http GET https://registry.npmjs.org/cherryio
+48 http 404 https://registry.npmjs.org/cherryio
+49 verbose headers { date: 'Wed, 31 Dec 2014 11:29:22 GMT',
+49 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'cache-control': 'max-age=0',
+49 verbose headers   'content-length': '52',
+49 verbose headers   'accept-ranges': 'bytes',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   age: '0',
+49 verbose headers   'x-served-by': 'cache-fra1241-FRA',
+49 verbose headers   'x-cache': 'MISS',
+49 verbose headers   'x-cache-hits': '0',
+49 verbose headers   'x-timer': 'S1420025362.247117,VS0,VE176',
+49 verbose headers   'keep-alive': 'timeout=10, max=50',
+49 verbose headers   connection: 'Keep-Alive' }
+50 silly registry.get cb [ 404,
+50 silly registry.get   { date: 'Wed, 31 Dec 2014 11:29:22 GMT',
+50 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=0',
+50 silly registry.get     'content-length': '52',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1420025362.247117,VS0,VE176',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 silly lockFile c56fc81b-cherryio-latest cherryio@latest
+52 silly lockFile c56fc81b-cherryio-latest cherryio@latest
+53 http 200 https://registry.npmjs.org/request
+54 silly registry.get cb [ 200,
+54 silly registry.get   { date: 'Wed, 31 Dec 2014 11:29:22 GMT',
+54 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly registry.get     etag: '"5S0MHU4OUB9MXDX7QYN0JACHG"',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=60',
+54 silly registry.get     'content-length': '133237',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '37',
+54 silly registry.get     'x-served-by': 'cache-fra1237-FRA',
+54 silly registry.get     'x-cache': 'HIT',
+54 silly registry.get     'x-cache-hits': '1',
+54 silly registry.get     'x-timer': 'S1420025362.254007,VS0,VE1',
+54 silly registry.get     vary: 'Accept',
+54 silly registry.get     'keep-alive': 'timeout=10, max=50',
+54 silly registry.get     connection: 'Keep-Alive' } ]
+55 verbose addNamed [ 'request', '2.51.0' ]
+56 verbose addNamed [ '2.51.0', '2.51.0' ]
+57 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+58 verbose lock request@2.51.0 C:\Users\Hammad\AppData\Roaming\npm-cache\85707acc-request-2-51-0.lock
+59 silly lockFile fcfd6969-s-org-request-request-2-51-0-tgz https://registry.npmjs.org/request/-/request-2.51.0.tgz
+60 verbose lock https://registry.npmjs.org/request/-/request-2.51.0.tgz C:\Users\Hammad\AppData\Roaming\npm-cache\fcfd6969-s-org-request-request-2-51-0-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.51.0.tgz',
+61 verbose addRemoteTarball   '35d00bbecc012e55f907b1bd9e0dbd577bfef26e' ]
+62 info retry fetch attempt 1 at 16:29:21
+63 verbose fetch to= C:\Users\Hammad\AppData\Local\Temp\npm-10336-IIulFx-R\registry.npmjs.org\request\-\request-2.51.0.tgz
+64 http GET https://registry.npmjs.org/request/-/request-2.51.0.tgz
+65 http 200 https://registry.npmjs.org/request/-/request-2.51.0.tgz
+66 silly lockFile fcfd6969-s-org-request-request-2-51-0-tgz https://registry.npmjs.org/request/-/request-2.51.0.tgz
+67 silly lockFile fcfd6969-s-org-request-request-2-51-0-tgz https://registry.npmjs.org/request/-/request-2.51.0.tgz
+68 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+69 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+70 silly lockFile 5da6dfb1-request-latest request@latest
+71 silly lockFile 5da6dfb1-request-latest request@latest
+72 error 404 404 Not Found: cherryio
+72 error 404
+72 error 404 'cherryio' is not in the npm registry.
+72 error 404 You should bug the author to publish it
+72 error 404 It was specified as a dependency of 'WebScrapper'
+72 error 404
+72 error 404 Note that you can also install from a
+72 error 404 tarball, folder, or http url, or git url.
+73 error System Windows_NT 6.1.7601
+74 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+75 error cwd C:\Users\Hammad\WebstormProjects\WebScrapper
+76 error node -v v0.10.33
+77 error npm -v 1.4.28
+78 error code E404
+79 verbose exit [ 1, true ]
